@@ -1,3 +1,3 @@
 # InstaFam
 
-# Photo sharing for family circles
+## Photo sharing for family circles
