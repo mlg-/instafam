@@ -1,0 +1,9 @@
+<%= form_for(@photo) do |f| %>
+  <%= f.label :caption %>
+  <%= f.text_field :caption %>
+
+  <%= f.label :display_photo, "Choose File" %>
+  <%= f.file_field :display_photo %>
+
+  <%= f.submit "Add Photo" %>
+<% end %>
